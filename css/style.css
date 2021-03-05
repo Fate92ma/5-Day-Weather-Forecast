@@ -1,0 +1,159 @@
+/*
+
+Template Name: 5 Day Weather Forecast
+Template Url: https://fate92ma.github.io/5-Day-Weather-Forecast
+Contact Me: fatema131khaled@gmail.com
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: 'Helvetica'
+}
+
+/* Start Styling */
+
+main {
+    margin: 120px 0
+}
+
+h2 {
+    background: #dddddd82;
+    color: #2b8b7f;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+input {
+    width: 70vw;
+    outline: 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 40px auto
+}
+
+.weatherForecast {
+    width: 90vw;
+    margin: auto
+}
+
+.currentInfo,
+.weatherInfo {
+    margin-bottom: 40px
+}
+
+.currentInfo div {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column
+}
+
+.currentInfo h3 {
+    color: #2b8b7f;
+    line-height: 34px;
+    font-size: 22px
+}
+
+.currentInfo h3 span,
+.currentInfo h4 span {
+    color: black;
+    font-weight: normal
+}
+
+.weatherInfo {
+    border: 1px dotted #2b8b7f;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.weatherInfo div {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 17px
+}
+
+.weatherInfo div h4 {
+    font-size: 22px;
+    color: #2b8b7f
+}
+
+.currentInfo p,
+.weatherInfo div p {
+    margin-top: 14px
+}
+
+.weatherDesc {
+    display: flex;
+    align-items: center
+}
+
+.currentInfo p img,
+.weatherInfo div p img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 10px
+}
+
+center {
+    color: red;
+    font-weight: bold;
+    font-size: 24px
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 84vw
+    }
+
+    .weatherInfo {
+        flex-direction: column
+    }
+
+    .weatherInfo div * {
+        text-align: center
+    }
+
+    .weatherDesc {
+        width: fit-content;
+        margin: auto;
+        margin-top: 14px
+    }
+}
+
+@media (max-width: 400px) {
+
+    .currentInfo *,
+    .weatherInfo div * {
+        display: flex;
+        flex-direction: column
+    }
+
+    .weatherInfo div {
+        margin-bottom: 30px
+    }
+
+    .weatherInfo div h4 {
+        font-size: 24px
+    }
+}
+
+/* End Styling */
