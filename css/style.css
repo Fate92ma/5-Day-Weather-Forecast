@@ -6,7 +6,7 @@ Contact Me: fatema131khaled@gmail.com
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *,
 *::after,
@@ -18,7 +18,7 @@ Contact Me: fatema131khaled@gmail.com
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
-    font-family: 'Helvetica'
+    font-family: 'Lato'
 }
 
 /* Start Styling */

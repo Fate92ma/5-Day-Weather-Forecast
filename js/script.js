@@ -48,7 +48,7 @@ function getUserIPData() {
         throw 'Request Failed'
     }
 
-    myRequest.open("GET", 'https://api.myip.com', true)
+    myRequest.open("GET", 'https://freegeoip.app/json/', true)
 
     myRequest.send()
 
